@@ -1,5 +1,4 @@
 ﻿using AdventOfCode2017.Common;
-using AdventOfCode2017.Solutions;
 using System;
 
 namespace AdventOfCode2017
