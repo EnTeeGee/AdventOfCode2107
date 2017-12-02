@@ -25,8 +25,7 @@ namespace AdventOfCode2017
 3858	202	1141	3458	2507	239	199	4400	3713	3980	4170	227	3968	1688	4352	4168
 ";
 
-
-            var solution = new Day02Problem1().GenerateAnswer(input);
+            var solution = new Day02Problem2().GenerateAnswer(input);
 
             Console.WriteLine(solution);
             Console.ReadLine();
