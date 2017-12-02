@@ -1,10 +1,11 @@
-﻿using System;
+﻿using AdventOfCode2017.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace AdventOfCode2017.Solutions
 {
-    public class Day01Problem1
+    public class Day01Problem1 : ISolution
     {
         public string GenerateAnswer(string input)
         {
