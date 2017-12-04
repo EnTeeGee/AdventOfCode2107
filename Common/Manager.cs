@@ -88,8 +88,6 @@ namespace AdventOfCode2017.Common
 
         public string ReadDataFromClipboard()
         {
-            var test = Clipboard.ContainsData(DataFormats.StringFormat);
-
             if (!Clipboard.ContainsText())
             {
                 return string.Empty;
