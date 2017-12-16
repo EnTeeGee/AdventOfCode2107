@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\ISolution.cs" />
+    <Compile Include="Common\KnotHash.cs" />
     <Compile Include="Common\Manager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,6 +75,8 @@
     <Compile Include="Solutions\Day12Problem2.cs" />
     <Compile Include="Solutions\Day13Problem1.cs" />
     <Compile Include="Solutions\Day13Problem2.cs" />
+    <Compile Include="Solutions\Day14Problem1.cs" />
+    <Compile Include="Solutions\Day14Problem2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
