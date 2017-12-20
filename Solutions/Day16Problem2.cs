@@ -59,21 +59,6 @@ namespace AdventOfCode2017.Solutions
             }
 
             long steps = 1000000000;
-            //long steps = 100;
-
-            // standard
-
-            //for (long i = 0; i < steps; i++)
-            //{
-            //    foreach (var action in actions)
-            //    {
-            //        characters = action(characters);
-            //    }
-            //}
-
-            //Console.WriteLine("Standard method returned " + string.Join(string.Empty, characters));
-
-            //characters = StartingCharacters.Select(it => it.ToString()).ToArray();
 
             for (long i = 0; i < steps; i++)
             {
@@ -89,8 +74,6 @@ namespace AdventOfCode2017.Solutions
                     i = skipTo - 1;
                 }
             }
-
-            //Console.WriteLine("New method returned " + string.Join(string.Empty, characters));
 
             return string.Join(string.Empty, characters);
         }
